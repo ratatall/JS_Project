@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Apply </title>
+    <link rel="stylesheet" href="../css/apply.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="../css/printApply.css" type="text/css" media="print">
+    <script type="text/javascript" src="../javascript/apply.js"></script>
+    <script>
+        function clicksci() {
+            document.getElementById("science").setAttribute("style", "display: block;");
+            document.getElementById("engineering").setAttribute("style", "display: none");
+            document.getElementById("interdisciplinary").setAttribute("style", "display: none");
+            document.getElementById("sci").setAttribute("style", "background-color: white !important;");
+            document.getElementById("eng").setAttribute("style", "background-color: rgb(223, 202, 166)");
+            document.getElementById("is").setAttribute("style", "background-color: rgb(223, 202, 166)");
+        }
+        function clickeng() {
+            document.getElementById("engineering").setAttribute("style", "display: block");
+            document.getElementById("science").setAttribute("style", "display: none");
+            document.getElementById("interdisciplinary").setAttribute("style", "display: none");
+            document.getElementById("eng").setAttribute("style", "background-color: white !important;");
+            document.getElementById("sci").setAttribute("style", "background-color: rgb(223, 202, 166)");
+            document.getElementById("is").setAttribute("style", "background-color: rgb(223, 202, 166)");
+        }
+
+        function clickis() {
+            document.getElementById("interdisciplinary").setAttribute("style", "display: block");
+            document.getElementById("engineering").setAttribute("style", "display: none");
+            document.getElementById("science").setAttribute("style", "display: none");
+            document.getElementById("is").setAttribute("style", "background-color: white !important;");
+            document.getElementById("eng").setAttribute("style", "background-color: rgb(223, 202, 166)");
+            document.getElementById("sci").setAttribute("style", "background-color: rgb(223, 202, 166)");
+        }
+    </script>
+    
+</head>
+<body>
+    <header>
+        <img src="../image/logo.png" width="400" height="100" alt="logo">
+        <h1>Hong Kong Industrial University</h1>
+    </header>
+    <nav>
+        <form>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="visit.html">Visit</a></li>
+                <li><a href="program.html">Program</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </form>
+    </nav>
+    <div id="inv">Welcome to HKIU</div>
+    <div class = "container">
+        <div id = "title">Common application to Undergraduate Programs</div>
+        <div class = "items">
+            <div id = "eng" class = "heading" onclick="clickeng"><p>College of Engineering</p></div>
+            <div id = "sci" class = "heading" onclick="clicksci"><p>College of Science</p></div>
+            <div id = "is" class = "heading" onclick="clickis"><p>College of Interdisciplinary Studies</p></div>
+            <div id="engineering" class="categories">
+                <form class = "form" method="get" action="#"> 
+                    <img src="../image/cs.png" width="200" height="200" alt="Computer Science and Technology">
+                    <p><label for="cs">BSc in Computer Science and Technology</label></p>
+                    <p><input type="text" id="cs" name="cs">
+                    <button type="submit" class="ofchoice" id="csr">Rank of choice</button></p>
+                </form>
+                <form method="get" action="#">
+                    <img src="../image/ei.png" width="200" height="200" alt="Electronic Information">
+                    <p><label for="ei">BEng in Electronic Information</label></p>
+                    <p><input type="text" id="ei" name="ei">
+                    <button type="submit" id="eir">Rank of choice</button></p>
+                </form>
+                <form method="get" action="#">
+                    <img src="../image/mse.png" width="200" height="200" alt="Material Science and Technology">
+                    <p><label for="mse">BEng in Materials Science and Engineering</label></p>
+                    <p><input type="text" id="mse" name="mse">
+                    <button type="submit" id="mser">Rank of choice</button></p>
+                </form>
+                <form method="get" action="#">
+                    <img src="../image/mc.png" width="200" height="200" alt="Materials and Chemicals">
+                    <p><label for="mc">BEng in Materials and Chemicals</label></p>
+                    <p><input type="text" id="mc" name="mc">
+                    <button type="submit" id="mcr">Rank of choice</button></p>
+                </form>
+                <form method="get" action="#">
+                    <img src="../image/est.png" width="200" height="200" alt="Electronic Science and Technology">
+                    <p><label for="est">BSc in Electronic Science and Technology</label></p>
+                    <p><input type="text" id="est" name="est">
+                    <button type="submit" id="estr">Rank of choice</button></p>
+                </form>
+            </div>
+            <div id="science" class="categories">
+                <form method="get" action="#">
+                    <img src="../image/phy.png" width="200" height="200" alt="Physics">
+                    <p><label for="phy">BSc in Physics</label></p>
+                    <p><input type="text" id="phy" name="phy">
+                    <button type="submit" id="phyr">Rank of choice</button></p>
+                </form>
+                <form method="get" action="#">
+                    <img src="../image/chem.png" width="200" height="200" alt="Chemistry">
+                    <p><label for="chem">BSc in Chemistry</label></p>
+                    <p><input type="text" id="chem" name="chem">
+                    <button type="submit" id="chemr">Rank of choice</button></p>
+                </form>
+                <form method="get" action="#">
+                    <img src="../image/bio.png" width="200" height="200" alt="Biology">
+                    <p><label for="bio">BSc in Biology</label></p>
+                    <p><input type="text" id="bio" name="bio">
+                    <button type="submit" id="bior">Rank of choice</button></p>
+                </form>
+            </div>
+            <div id = "interdisciplinary" class="categories">
+                <form method="get" action="#">
+                    <img src="../image/cogs.png" width="200" height="200" alt="Cognitive Science">
+                    <p><label for="cogs">BSc in Cognitive Science</label></p>
+                    <p><input type="text" id="cogs" name="cogs">
+                    <button type="submit" id="cogsr">Rank of choice</button></p>
+                </form>
+                <form method="get" action="#">
+                    <img src="../image/be.png" width="200" height="200" alt="Biomedical Engineering">
+                    <p><label for="be">BEng in Biomedical Engineering</label></p>
+                    <p><input type="text" id="be" name="be">
+                    <button type="submit" id="ber">Rank of choice</button></p>
+                </form>
+                <form method="get" action="#">
+                    <img src="../image/bm.png" width="200" height="200" alt="Biology and Medicine">
+                    <p><label for="bm">BSc in Biology and Medicine</label></p>
+                    <p><input type="text" id="bm" name="bm">
+                    <button type="submit" id="bmr">Rank of choice</button></p>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <div class="majors">
+        <h3>Your chosen majors:</h3>
+        <h4 id="changeTime">Last change time:</h4>
+        <table>
+            <thead style="background-color:rgb(248, 156, 156)">
+                <tr>
+                    <th><b>College</b></th>
+                    <th><b>Major</b></th>
+                    <th><b>Rank</b></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="col1"></td>
+                    <td id="ran1"></td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td id="col2"></td>
+                    <td id="ran2"></td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td id="col3"></td>
+                    <td id="ran3"></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td id="col4"></td>
+                    <td id="ran4"></td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td id="col5"></td>
+                    <td id="ran5"></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td id="col6"></td>
+                    <td id="ran6"></td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td id="col7"></td>
+                    <td id="ran7"></td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td id="col8"></td>
+                    <td id="ran8"></td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td id="col9"></td>
+                    <td id="ran9"></td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td id="col10"></td>
+                    <td id="ran10"></td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+        <h4 id="completedNumber">Total number of completed choices : 0</h4><br>
+        <p id="submit"><a href="#"> Submit </a></p>
+        <p id="clear"><a href="#"> Clear </a></p><br>
+        <p id="checker"></p>
+    </div>
+    <footer>
+        <img src="../image/footer_logo.png" height="100" width="300" alt="footer">
+        <p>&copy; CityU 2023 sources of images and text from Wikipedia and Courtesy of Icon pack by Icons8 -- designed by  <a href="design.html"> Adilkhan </a></p>
+    </footer>
+</body>
+</html>

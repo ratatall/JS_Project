@@ -1,0 +1,122 @@
+
+header{
+    text-align: center;  
+    height: 170px;
+    animation-name: headanimation;
+    animation-duration: 4s; 
+}
+
+ul{
+    background-color: gray;  
+}
+
+li{
+        display: inline-block;
+        padding : 20px; 
+        margin: 0;
+}
+
+li > a{
+        color: white ;
+        text-decoration: none;
+        
+}
+
+a{
+        text-decoration: none;
+}
+
+.invitation{
+        text-align: center;
+        padding : 10px;
+        margin-bottom: 40px;
+}
+
+footer{
+    background-color: rgb(239, 145, 68);
+    text-align: center;
+    margin: 0; 
+}
+ 
+ legend, #date , #time{
+    text-align: left;
+ }
+
+.booking{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 30px;
+    width:70%;
+    clear: both;
+}
+
+#invitation{
+    clear: both;
+}
+
+.info+h3{
+    text-align: center;
+}
+
+a:hover {
+    color : rgb(175, 107, 47) !important; 
+}
+
+a:active{
+      color: orange;
+}
+
+a:visited{
+      color: rgb(242, 194, 170);
+}
+
+li>a:link{
+        color: white;
+}
+
+.info{
+    width: 100%;
+
+}
+
+.locimage{
+    float: left;
+    width: 45%;
+    margin-right: 1%;
+    margin-left: 20px;
+}
+
+.loc_info{
+    float: right;
+    width: 40%;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+#loc_photo{
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+}
+
+#hkiuintro{
+    color: brown;
+} 
+
+@keyframes headanimation {
+    from{
+      background-color: rgb(239, 145, 68);
+    }
+    to{
+        background-color: white;
+    }
+  }
+#re-enter, #nan{
+    color: red;
+    text-align: center;
+}

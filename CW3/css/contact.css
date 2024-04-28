@@ -1,0 +1,68 @@
+
+
+header{
+    text-align: center;  
+    height: 170px;
+    animation-name: headanimation;
+    animation-duration: 4s; 
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(67, 66, 66); 
+}
+
+li{
+        display: inline-block;
+        margin: 0;
+        padding : 20px; 
+}
+
+a  {
+    text-decoration: none;
+    color: white ;   
+}
+
+a:hover {
+    color : rgb(175, 107, 47) !important; 
+}
+
+a:active{
+      color: orange;
+}
+
+a:visited{
+    color: rgb(242, 194, 170);
+}
+
+#hkiuintro {
+        color: brown; 
+} 
+
+footer{
+    background-color: rgb(239, 145, 68);
+    text-align: center;
+    margin: 0; 
+}
+
+
+table {
+    border: 1px solid white ;
+    text-align: center;
+    width:80%;
+}
+
+#contact{
+    font-size: 30px;
+    text-align: center;
+}
+
+@keyframes headanimation {
+    from{
+      background-color: rgb(239, 145, 68);
+    }
+    to{
+        background-color: white;
+    }
+  }

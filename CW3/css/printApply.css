@@ -1,0 +1,54 @@
+header{
+    text-align: center;  
+    height: 130px;
+    animation-name: headanimation;
+    animation-duration: 4s; 
+}
+
+nav, #wel, .apply-container {
+    display: none;
+}
+
+#clear, #submit{
+    border : 2px solid black ;
+    padding : 5px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.foot {
+    text-align: center;
+}
+
+table{
+    width: 85%;
+    
+}
+table , th , td {
+    border: 1px solid grey ;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+    
+tbody > tr:nth-child(odd) { 
+        background-color: gray; 
+} 
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#hkiuintro{
+    color: brown;
+} 
+
+@keyframes headanimation {
+    from{
+      background-color: rgb(239, 145, 68);
+    }
+    to{
+        background-color: white;
+    }
+  }

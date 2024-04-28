@@ -1,0 +1,98 @@
+
+header{
+  text-align: center;  
+  height: 170px;
+  animation-name: headanimation;
+  animation-duration: 4s; 
+}
+
+ul{
+  background-color: gray;  
+}
+
+a:hover {
+  color : rgb(175, 107, 47) !important; 
+}
+
+a:active{
+  color: orange;
+}
+
+nav a:visited{
+    color: rgb(242, 194, 170); 
+}
+    
+li > a:link{
+        color: white;
+}
+
+.invitation {
+    background-color: rgb(247, 197, 176);
+    text-align: center;
+    padding : 10px;
+    margin-bottom: 40px;
+}
+
+
+footer{
+  background-color: rgb(239, 145, 68);
+  text-align: center;
+  margin: 0;
+}
+  
+li{
+    display: inline-block;
+    padding : 20px; 
+    margin: 0;
+}
+
+a{
+    color: white ;
+    text-decoration: none;
+    
+}
+
+#address, #map {
+  display: inline-block;
+  padding: 1%;
+  overflow: hidden;
+  width: 45%;
+}
+
+.information {
+  float: left;
+  background-color: white;
+}
+
+#hkiuintro{
+  color: brown;
+} 
+
+#location{
+  font-size: xx-large;
+  margin-left: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+@keyframes headanimation {
+  from{
+    background-color: rgb(239, 145, 68);
+  }
+  to{
+      background-color: white;
+  }
+}
+
+#img1{
+  width: 430px;
+  height: 430px;
+}
+
+#img2{
+  width: 250px;
+  height: 63px;
+}

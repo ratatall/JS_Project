@@ -1,0 +1,176 @@
+
+
+header{
+    text-align: center;  
+    height: 170px;
+    animation-name: headanimation;
+    animation-duration: 4s; 
+}
+
+ul {
+    background-color: gray;     
+}
+
+a:hover {
+    color : rgb(175, 107, 47) !important; 
+}
+
+a:active{
+      color: orange;
+}
+
+a:visited{
+      color: rgb(242, 194, 170);
+}
+    
+li{
+    display: inline-block;
+    padding : 20px; 
+    margin: 0;
+}
+
+li > a{
+    color: white ;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#inv {
+    font-size: 30px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: orange;
+}
+
+.categories{
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    width:100%;
+    background-color: grey; 
+}
+
+.container{
+    width:100%;
+    float:left;
+}
+
+.items {
+    width: 98.5%;
+    float: left;
+    border: 1px solid gray;
+    margin-left: 10px;
+}
+
+#title{
+    width: 98%;
+    padding: 0.5%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid gray;
+}
+
+
+.majors > h3 {
+    margin: 15px;
+}
+
+.heading{
+    float:left;       
+    width: 32%;
+    background-color: rgb(223, 202, 166);
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black; 
+}
+
+/*
+#engineering:hover ~ .heading, #engineering:hover ~ .eng, .heading:hover, .categories > form:hover{
+    background-color: white !important;
+}
+*/
+
+.categories > form {
+    border: 1px solid black;
+    float: 	left;
+    padding : 2px;
+    margin: 1px;
+    width: 32%;
+    background-color: rgb(230, 222, 237);
+}
+
+.categories {
+    margin:0;
+    padding: 0;
+    display: none;   
+}
+
+table , th , td {
+    border: 1px solid grey ;
+    border-collapse: collapse;
+}
+
+.majors{
+    margin: 2.5%;
+}
+
+table{
+    width: 90%;  
+}
+
+thead{
+    background-color:rgb(248, 156, 156);
+}
+
+tbody > tr:nth-child(odd) { 
+    background-color: gray; 
+} 
+
+#hkiuintro {
+    color: brown;
+}
+
+footer{
+    background-color: rgb(239, 145, 68);
+    text-align: center;
+    margin: 0; 
+}
+
+#submit, #clear  {
+    border : 1px solid black ;
+    padding : 5px;
+    display: inline-block;
+    border-radius: 3.5px;
+    color: black;
+}
+  
+tbody > tr:nth-child(even):hover { 
+    background-color: rgb(241, 209, 209) ;
+} 
+
+tbody > tr:nth-child(odd):hover { 
+    background-color:rgb(225, 168, 208) ;
+} 
+
+@keyframes headanimation {
+    from{
+      background-color: rgb(239, 145, 68);
+    }
+    to{
+        background-color: white;
+    }
+  }
+#eng{
+    background-color: white;
+}
+#engineering{
+    display: block;
+}
+
+#checker{
+    color: red;
+}

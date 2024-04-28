@@ -1,0 +1,117 @@
+
+header{
+    text-align: center;  
+    height: 170px;
+    animation-name: headanimation;
+    animation-duration: 4s; 
+}
+
+ul{
+    background-color: gray;  
+}
+
+li{
+        display: inline-block;
+        padding : 20px; 
+        margin: 0;
+}
+
+a{
+        color: white ;
+        text-decoration: none;
+}
+
+a:hover {
+    color : rgb(175, 107, 47) !important; 
+}
+
+a:active{
+      color: orange;
+}
+
+a:visited{
+      color: rgb(242, 194, 170);
+}
+    
+li>a:link{
+        color: white;
+}
+
+#program{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.join > h3{
+    float:left;
+    width: 45%;
+    margin-left: 25px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.join > video{
+    float: right;
+    width: 40%;
+    margin-right: 30px;
+    
+}
+.join{
+    width: 100%;
+    clear:both;
+    float: left;
+    margin-bottom: 30px;
+}
+
+video{
+    width: 600px;
+}
+
+table, th ,td{
+    border: 1px solid black ;
+    border-collapse: collapse;
+}
+
+table{
+    width: 90%;
+    margin: 30px 60px;
+    text-align: center;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(239, 145, 68);
+    text-align: center;
+    margin: 0; 
+    position: relative;
+    top: 100px;
+}
+
+#hkiuintro{
+    color: brown;
+} 
+
+
+.vid{
+    position: absolute;
+    top: 320px;
+    right: 30px;
+}
+
+#table{
+    position: relative;
+    top: 100px;
+}
+
+#message{
+    height: 150px;
+}

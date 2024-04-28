@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Visit </title>
+    <link rel="stylesheet" href="../css/visit.css" type="text/css" media="all">
+    <script type="text/javascript" src="../javascript/visit.js"></script>
+    <script type="text/javascript" src="https://personal.cs.cityu.edu.hk/~cs2204/2023/cw3cs2204.js"></script>
+</head>
+<body>
+    <header>
+        <img src="../image/logo.png" width="400" height="100" alt="logo">
+        <h1 id="hkiuintro">Hong Kong Industrial University</h1>
+    </header>
+    <nav>
+        <form>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="visit.html">Visit</a></li>
+                <li><a href="program.html">Program</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </form>
+    </nav>
+    <div class="invitation">
+        <p>
+            We warmly welcome you to visit us at our Kowloon campus and experience our
+            vibrant learning community. Our campus is located in the Hong Kong Kowloon
+            High-Tech Park, where we collaborate closely with institutes of the
+            Chinese Academy of Sciences.
+        </p>
+        <p>
+            During your visit, you can explore our world-class facilities, including
+            the Protein Folding Science Center, Hong Kong Advanced Computing
+            Equipment, Hong Kong Ultrafast Laser Facility, Hong Kong Electron-Positron
+            Collider, and Hong Kong Supercomputer Facility. These facilities are
+            available to our faculty, students, and researchers worldwide.
+        </p>
+        <p>
+            You will also have the chance to meet our renowned scholars and experts
+            from home and abroad committed to providing students with cutting-edge
+            knowledge and skills in their respective fields. Our faculty members are
+            recognized leaders in their fields, and their research has been published
+            in prestigious journals such as Cell, Nature, and Science.
+        </p>
+        <p>
+            We hope you will come and visit us soon to experience firsthand the
+            dynamic and innovative community at Hong Kong Industrial University.
+        </p>
+    </div>
+    <div class="info">
+        <div class="locimage">
+            <img src="../image/location.jpg" id="loc_photo"  alt="location"  width="800" height="800">
+        </div>
+        <div class="loc_info">
+            <h3>Location</h3>
+            <p> Address: Tat Chee Avenue, Kowloon, Hong Kong SAR </p>
+            <p> Tel: (852) 1234 5678 </p>
+            <p> Fax: (852) 8765 4321 </p>
+            <p> Email: visit@hkiu.edu.hk </p><br>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <h3 id="invitation">Hong Kong Industrial University is having an open day on campus! Please
+            make a reservation to visit our campus!</h3>
+    <div class="booking">
+        <form>
+            <fieldset>
+                <legend>Booking Information</legend>
+                <label for="date"> Date: </label>
+                <input type="date" id="date" name="date"><br>
+                <label for="time"> Time: </label>
+                <select id="time">
+                    <option> 9:30-10:30am </option>
+                    <option> 2:30-4:00pm </option>
+                    <option> 4:00-5:00pm </option>
+                </select><br>
+                <label for="visitors"> No. of Visitors: </label>
+                <input type="text" id="visitors" name="visitors"><br><br>
+                <p id="re-enter"> Data not completed, please re-enter</p>
+                <p id="nan"> Please enter a valid number of people</p>
+                <input type="submit" value="Check Availability" id="checkAval">
+                <input type="reset">
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <img src="../image/footer_logo.png" height="100" width="300" alt="footer">
+        <p>&copy; CityU 2023 sources of images and text from Wikipedia and Courtesy of Icon pack by Icons8 -- designed by  <a href="design.html"> Adilkhan </a></p>
+    </footer>
+</body>
+</html>
